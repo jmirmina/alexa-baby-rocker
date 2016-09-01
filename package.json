@@ -1,0 +1,41 @@
+{
+  "name": "alexa-baby-rocker",
+  "version": "1.0.0",
+  "description": "A voice controller baby rocker using Amazon Echo (Alexa) and a Raspberry Pi",
+  "main": "server,js",
+  "dependencies": {
+    "async": "^1.5.2",
+    "array-to-sentence": "^1.0.4",
+    "basic-auth": "^1.0.3",
+    "alexa-app": "^2.3.2",
+    "node-static": "^0.7.7",
+    "require-fu": "^1.0.0",
+    "request-promise": "^1.0.2",
+    "rpi-gpio": "^0.7.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmirmina/alexa-baby-rocker.git"
+  },
+  "keywords": [
+    "amazon",
+    "echo",
+    "alexa",
+    "baby",
+    "rocker",
+    "raspberry",
+    "pi"
+  ],
+  "author": "Joe Mirmina",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jmirmina/alexa-baby-rocker/issues"
+  },
+  "homepage": "https://github.com/jmirmina/alexa-baby-rocker#readme"
+}
