@@ -1,0 +1,11 @@
+StartRocking {BabyA}
+StartRocking {BabyA} and {BabyB}
+StartRocking Rock {BabyA}
+StartRocking Rock {BabyA} and {BabyB}
+StartRocking Start rocking {BabyA}
+StartRocking Start rocking {BabyA} and {BabyB}
+
+StopRocking Stop
+StopRocking Stop rocking
+StopRocking Stop rocking {BabyA}
+StopRocking Stop rocking {BabyA} and {BabyB}

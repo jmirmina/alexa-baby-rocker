@@ -1,0 +1,30 @@
+{
+  "intents": [
+    { 
+		"intent": "StartRocking" ,
+    	"slots": [
+	        {
+                "name": "BabyA",
+                "type": "BABY"
+            },
+            {
+                "name": "BabyB",
+                "type": "BABY"
+            }
+		]
+    },
+    { 
+		"intent": "StopRocking" ,
+    	"slots": [
+	        {
+                "name": "BabyA",
+                "type": "BABY"
+            },
+            {
+                "name": "BabyB",
+                "type": "BABY"
+            }
+		]
+    }
+  ]
+}
